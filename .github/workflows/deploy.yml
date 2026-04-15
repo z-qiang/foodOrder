@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # 根据你的项目需求可改为 16 或 20
+          node-version: '20' # 根据你的项目需求可改为 16 或 20
           cache: 'npm'
 
       # 3. 安装依赖并构建项目
