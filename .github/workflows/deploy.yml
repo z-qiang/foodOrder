@@ -30,7 +30,7 @@ jobs:
 
       # 4. 部署与同步 (使用 PowerShell)
       - name: Deploy to Server
-        shell: pwsh
+        shell: powershell
         run: |
           $TARGET_DIR = "D:\order\web"
           
